@@ -4,12 +4,12 @@ import React from 'react';
 
 const Nav = () => {
   return (
-    <nav className="flex justify-between items-center">
+    <nav className='flex items-center justify-between'>
       <div>
-        <Link href="/">
+        <Link href='/'>
           <Image
-            src="/assets/images/logo.svg"
-            alt="Laracasts Logo"
+            src='/assets/images/logo.svg'
+            alt='Laracasts Logo'
             width={165}
             height={16}
           />
@@ -17,12 +17,12 @@ const Nav = () => {
       </div>
 
       <div>
-        <Link href="/" className="text-xs font-bold">
+        <Link href='/' className='text-xs font-bold'>
           Home Page
         </Link>
         <Link
-          href="/"
-          className="text-xs bg-blue-500 text-white rounded-full px-3 py-1.5 ml-3"
+          href='/'
+          className='ml-3 rounded-full bg-blue-500 px-3 py-1.5 text-xs text-white'
         >
           SUBSCRIBE FOR UPDATES
         </Link>
