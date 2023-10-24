@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 import Nav from '@/app/components/Nav';
+import Header from '@/app/components/Header';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -17,8 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <section className="px-6 py-4">
+        <section className="px-6 py-8">
           <Nav />
+          <Header/>
           {children}
         </section>
       </body>

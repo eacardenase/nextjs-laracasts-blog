@@ -17,12 +17,12 @@ const Nav = () => {
       </div>
 
       <div>
-        <Link href='/' className='text-xs font-bold'>
-          Home Page
+        <Link href='/' className='text-xs font-bold uppercase'>
+          HOME PAGE
         </Link>
         <Link
           href='/'
-          className='ml-3 rounded-full bg-blue-500 px-3 py-1.5 text-xs text-white'
+          className='ml-3 rounded-full bg-blue-500 px-[23px] py-3 text-xs font-semibold uppercase text-white'
         >
           SUBSCRIBE FOR UPDATES
         </Link>
