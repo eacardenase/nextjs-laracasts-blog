@@ -16,11 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
-        <section className="px-6 py-8">
+    <html lang='en'>
+      <body className='font-sans'>
+        <section className='px-6 py-8'>
           <Nav />
-          <Header/>
+          <Header />
           {children}
         </section>
       </body>
