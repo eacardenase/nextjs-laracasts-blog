@@ -34,7 +34,7 @@ const otherFilters = [
 const Header = () => {
   return (
     <header className='mx-auto mt-20 max-w-4xl text-center'>
-      <div className='max-w- xl mx-auto'>
+      <div className='mx-auto max-w-xl'>
         <h1 className='text-4xl text-black'>
           Latest <span className='text-blue-400'>Laravel from Scratch</span>{' '}
           News
