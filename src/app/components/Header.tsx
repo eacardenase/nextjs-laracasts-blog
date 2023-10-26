@@ -57,12 +57,12 @@ const Header = () => {
           }
         </p>
 
-        <div className='mt-8 flex justify-center space-x-4'>
+        <div className='mt-8 space-y-2 lg:flex lg:justify-center lg:space-x-4 lg:space-y-0'>
           <Select options={categoryOptions} />
           <Select options={otherFilters} />
-          <span className='rounded-xl bg-gray-100 px-3 py-2'>
+          <span>
             <form action='#'>
-              <div className='relative inline-flex items-center'>
+              <div className='relative mt-2 flex items-center rounded-xl bg-gray-100 px-3 py-2 lg:mt-0 lg:inline-flex'>
                 <Image
                   className='pointer-events-none absolute'
                   src='/assets/icons/search.svg'
@@ -71,7 +71,7 @@ const Header = () => {
                   height={15}
                 />
                 <input
-                  className='ml-6 bg-transparent placeholder:text-gray-700'
+                  className='ml-6 bg-transparent text-sm placeholder:text-black'
                   type='text'
                   name='search'
                   placeholder='Find Something?'

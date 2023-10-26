@@ -16,10 +16,10 @@ const Footer = () => {
       </p>
 
       <div className='mt-10'>
-        <div className='relative mx-auto inline-block rounded-full bg-gray-200'>
-          <form action='#' method='post' className='flex text-sm'>
-            <div className='inline-flex items-center px-6 py-3'>
-              <label htmlFor='email'>
+        <div className='relative mx-auto inline-block rounded-full lg:bg-gray-200'>
+          <form action='#' method='post' className='text-sm lg:flex'>
+            <div className='items-center lg:px-6 lg:py-3'>
+              <label htmlFor='email' className='hidden lg:inline'>
                 <Image
                   src='/assets/images/mailbox-icon.svg'
                   alt='mailbox letter'
@@ -29,13 +29,13 @@ const Footer = () => {
               </label>
               <input
                 id='email'
-                className='ml-4 bg-transparent focus:outline-none'
+                className='rounded-full px-5 py-2 focus:outline-none lg:ml-4 lg:rounded-none lg:bg-transparent lg:p-0'
                 type='text'
                 placeholder='Your email address'
               />
             </div>
             <button
-              className='ml-3 rounded-full bg-blue-500 px-8 py-3 text-xs font-semibold uppercase text-white hover:bg-blue-600'
+              className='mt-4 rounded-full bg-blue-500 px-8 py-3 text-xs font-semibold uppercase text-white hover:bg-blue-600 lg:ml-3 lg:mt-0'
               type='submit'
             >
               Subscribe

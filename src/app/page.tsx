@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className='mx-auto mt-6 max-w-6xl space-y-6'>
+    <main className='mx-auto mt-4 max-w-6xl space-y-6 lg:mt-6'>
       <article className='border border-transparent border-opacity-0 transition-all ease-in-out hover:cursor-pointer hover:rounded-xl hover:border-black hover:border-opacity-5 hover:bg-gray-100'>
-        <div className='flex p-5'>
-          <div className='flex-1'>
+        <div className='px-5 py-6 lg:flex'>
+          <div className='lg:mr-8 lg:flex-1'>
             <Image
               className='rounded-xl'
               src='/assets/images/illustration-1.png'
@@ -17,7 +17,7 @@ export default function Home() {
           </div>
 
           <div className='flex flex-1 flex-col justify-between px-9'>
-            <header>
+            <header className='mt-8'>
               <div className='flex gap-6'>
                 <Link
                   className='rounded-full border border-cyan-300 px-5  py-1 text-[10px] font-semibold uppercase text-cyan-300'
@@ -67,13 +67,13 @@ export default function Home() {
                 />
                 <div>
                   <p className='text-xs'>Lary Laracore</p>
-                  <p className='text-xs text-gray-400'>
-                    {"Does it All'er @Laracasts"}
+                  <p className='text-xs text-gray-700'>
+                    {'Mascot at @Laracasts'}
                   </p>
                 </div>
               </div>
               <Link
-                className='rounded-full bg-gray-200 px-6 py-2 text-xs text-gray-700'
+                className='hidden rounded-full bg-gray-200 px-6 py-2 text-xs text-gray-700 md:block'
                 href='/'
               >
                 Read All About It
@@ -82,7 +82,7 @@ export default function Home() {
           </div>
         </div>
       </article>
-      <div className='grid grid-cols-2 gap-2'>
+      <div className='lg:grid lg:grid-cols-2 lg:gap-2'>
         <article className='border border-transparent border-opacity-0 transition-all ease-in-out hover:cursor-pointer hover:rounded-xl hover:border-black hover:border-opacity-5 hover:bg-gray-100'>
           <div className='flex flex-col gap-6 p-5'>
             <div className='flex-1'>
@@ -146,13 +146,13 @@ export default function Home() {
                   />
                   <div>
                     <p className='text-xs'>Lary Laracore</p>
-                    <p className='text-xs text-gray-400'>
-                      {"Does it All'er @Laracasts"}
+                    <p className='text-xs text-gray-700'>
+                      {'Mascot at @Laracasts'}
                     </p>
                   </div>
                 </div>
                 <Link
-                  className='rounded-full bg-gray-200 px-6 py-2 text-xs text-gray-700'
+                  className='hidden rounded-full bg-gray-200 px-6 py-2 text-xs text-gray-700 md:block'
                   href='/'
                 >
                   Read All About It
@@ -224,13 +224,13 @@ export default function Home() {
                   />
                   <div>
                     <p className='text-xs'>Lary Laracore</p>
-                    <p className='text-xs text-gray-400'>
-                      {"Does it All'er @Laracasts"}
+                    <p className='text-xs text-gray-700'>
+                      {'Mascot at @Laracasts'}
                     </p>
                   </div>
                 </div>
                 <Link
-                  className='rounded-full bg-gray-200 px-6 py-2 text-xs text-gray-700'
+                  className='hidden rounded-full bg-gray-200 px-6 py-2 text-xs text-gray-700 md:block'
                   href='/'
                 >
                   Read All About It
@@ -240,7 +240,7 @@ export default function Home() {
           </div>
         </article>
       </div>
-      <div className='grid grid-cols-3 gap-2'>
+      <div className='lg:grid lg:grid-cols-3 lg:gap-2'>
         <article className='border border-transparent border-opacity-0 transition-all ease-in-out hover:cursor-pointer hover:rounded-xl hover:border-black hover:border-opacity-5 hover:bg-gray-100'>
           <div className='flex flex-col gap-6 p-5'>
             <div className='flex-1'>
@@ -304,13 +304,13 @@ export default function Home() {
                   />
                   <div>
                     <p className='text-xs'>Lary Laracore</p>
-                    <p className='text-xs text-gray-400'>
-                      {"Does it All'er @Laracasts"}
+                    <p className='text-xs text-gray-700'>
+                      {'Mascot at @Laracasts'}
                     </p>
                   </div>
                 </div>
                 <Link
-                  className='rounded-full bg-gray-200 px-6 py-2 text-xs text-gray-700'
+                  className='hidden rounded-full bg-gray-200 px-6 py-2 text-xs text-gray-700 md:block'
                   href='/'
                 >
                   Read All About It
@@ -382,13 +382,13 @@ export default function Home() {
                   />
                   <div>
                     <p className='text-xs'>Lary Laracore</p>
-                    <p className='text-xs text-gray-400'>
-                      {"Does it All'er @Laracasts"}
+                    <p className='text-xs text-gray-700'>
+                      {'Mascot at @Laracasts'}
                     </p>
                   </div>
                 </div>
                 <Link
-                  className='rounded-full bg-gray-200 px-6 py-2 text-xs text-gray-700'
+                  className='hidden rounded-full bg-gray-200 px-6 py-2 text-xs text-gray-700 md:block'
                   href='/'
                 >
                   Read All About It
@@ -460,13 +460,13 @@ export default function Home() {
                   />
                   <div>
                     <p className='text-xs'>Lary Laracore</p>
-                    <p className='text-xs text-gray-400'>
-                      {"Does it All'er @Laracasts"}
+                    <p className='text-xs text-gray-700'>
+                      {'Mascot at @Laracasts'}
                     </p>
                   </div>
                 </div>
                 <Link
-                  className='rounded-full bg-gray-200 px-6 py-2 text-xs text-gray-700'
+                  className='hidden rounded-full bg-gray-200 px-6 py-2 text-xs text-gray-700 md:block'
                   href='/'
                 >
                   Read All About It

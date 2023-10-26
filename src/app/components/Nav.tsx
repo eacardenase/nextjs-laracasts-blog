@@ -4,7 +4,7 @@ import React from 'react';
 
 const Nav = () => {
   return (
-    <nav className='flex items-center justify-between'>
+    <nav className='md:flex md:items-center md:justify-between'>
       <div>
         <Link href='/'>
           <Image
@@ -16,7 +16,7 @@ const Nav = () => {
         </Link>
       </div>
 
-      <div>
+      <div className='mt-8 flex items-center justify-evenly md:mt-0'>
         <Link href='/' className='text-xs font-bold uppercase'>
           HOME PAGE
         </Link>
