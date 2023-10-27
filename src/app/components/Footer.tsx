@@ -18,7 +18,7 @@ const Footer = () => {
       <div className='mt-10'>
         <div className='relative mx-auto inline-block rounded-full lg:bg-gray-200'>
           <form action='#' method='post' className='text-sm lg:flex'>
-            <div className='items-center lg:px-6 lg:py-3'>
+            <div className='lg:flex lg:items-center lg:px-6 lg:py-3'>
               <label htmlFor='email' className='hidden lg:inline'>
                 <Image
                   src='/assets/images/mailbox-icon.svg'
