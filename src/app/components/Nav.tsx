@@ -22,7 +22,7 @@ const Nav = () => {
         </Link>
         <Link
           href='/'
-          className='ml-3 rounded-full bg-blue-500 px-[23px] py-3 text-xs font-semibold uppercase text-white'
+          className='ml-6 rounded-full bg-blue-500 px-[23px] py-3 text-xs font-semibold uppercase text-white'
         >
           SUBSCRIBE FOR UPDATES
         </Link>

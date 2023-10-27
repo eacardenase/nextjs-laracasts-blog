@@ -21,7 +21,6 @@ export default function RootLayout({
       <body className='font-sans'>
         <section className='px-6 py-8'>
           <Nav />
-          <Header />
           {children}
           <Footer />
         </section>
